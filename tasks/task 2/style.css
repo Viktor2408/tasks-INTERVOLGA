@@ -1,0 +1,83 @@
+body{
+    background: #9B9B9B;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #000;
+    background: #ffffff;
+}
+.field{
+    margin: 10px 0px 15px 0;
+    padding: 12px;
+    width: 90%;
+}
+.field-passport{
+    margin: 10px 0px 15px 0;
+    padding: 12px;
+    width: 41%;
+}
+
+.send-button,.cancel-button{
+    cursor: pointer;
+    background-color:#ffffff ;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #000000;
+    margin: 20px 10px 0 0;
+    width: 140px;
+    height: 50px;
+}
+.send-button:hover,.cancel-button:hover{
+    background-color:#000000 ;
+    color: #ffffff;
+}
+
+.close{
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: right;
+}
+.close::before{
+    content:"";
+    display: block;
+    width: 20px;
+    height: 1px;
+    background-color: #333;
+    transform:rotate(45deg);
+    position: relative;
+}
+.close::after{
+    content:"";
+    display: block;
+    width: 20px;
+    height: 1px;
+    background-color: #333;
+    transform:rotate(-45deg);
+    position: relative;
+    top: -1px;
+    
+}
+@media (max-width:400px){
+    .field-passport {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
